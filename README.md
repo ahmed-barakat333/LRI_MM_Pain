@@ -20,7 +20,8 @@ The data and code are organized into folders:
 
 8- RRHO_Analysis: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 
-9- Transcriptomics_Analysis_Sensory_Neuron: Data and code used to analyse senosry neuron datasets. This folder is orgnaized into the following subfolders 
+9- Transcriptomics_Analysis_Sensory_Neuron: Data and code used to analyse senosry neuron datasets. This folder is orgnaized into the following subfolders:
+
   a- human_Datasets: Data and code to analyse the human dataset (GSE168243).
   
   b- human_mouse_overlap:  Data and code to get genes that overlap in their expression between mouse and human datasets. 

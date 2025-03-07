@@ -20,7 +20,7 @@ The data and code are organized into folders:
 
 8- RRHO_Analysis: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 
-9- Transcriptomics_Analysis_Sensory_Neuron: Data and code used to analyse senosry neuron datasets. This folder is orgnaized into the following subfolders:
+9- Transcriptomics_Analysis_Sensory_Neuron: Data and code used to analyse senosry neuron transcriptomic datasets. This folder is orgnaized into the following subfolders:
 
   a- human_Datasets: Data and code to analyse the human dataset (GSE168243).
   
@@ -30,4 +30,4 @@ The data and code are organized into folders:
   
   d- mouse_Meta-analysis: Data and code to run rank-aggregaton meta-analysis of different mouse datasets.
 
-10- Transcriptomics_Analysis_MM: Data and code used to analyse multiple myeloma cell-types datasets. This folder is organized into subfolders based on cell type:
+10- Transcriptomics_Analysis_MM: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:

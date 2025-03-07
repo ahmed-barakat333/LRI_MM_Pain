@@ -16,7 +16,7 @@ The data and code are organized into folders:
 
 6- Ligand_Receptor_Annotations: A file containing final results of ligand-receptor pairs of each multple myeloma cell type with senosry neurons. 
 
-7- Overlap_Analysis: Data and code used to assess and visualize the overlap between activated pathways in multple myeloma cell types. 
+7- Overlap_Analysis: Data and code used to assess and visualize the overlap between activated pathways in multiple myeloma cell types. 
 
 8- RRHO_Analysis: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 

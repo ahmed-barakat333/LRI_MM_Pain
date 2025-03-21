@@ -1,0 +1,397 @@
+
+Gurobi 9.5.2 (mac64[rosetta2], gurobi_cl) logging started Tue Nov 22 19:02:10 2022
+
+Set parameter Username
+Set parameter SolutionLimit to value 500
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0
+Set parameter SolFiles to value "/Users/ahmedbarakat/Documents/MM_Pain_Network/PC//result_t19_01_58d22_11_2022n70"
+Set parameter LogFile to value "gurobi.log"
+Set parameter NumericFocus to value 2
+Set parameter PoolSolutions to value 100
+Set parameter PoolSearchMode to value 2
+Set parameter PoolGap to value 0
+Academic license - for non-commercial use only - expires 2023-07-15
+Using license file /Users/ahmedbarakat/gurobi.lic
+
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[rosetta2])
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: unknown variable 'nDs1894' in bounds section (line 217555)
+Warning: unknown variable 'nDs2324' in bounds section (line 217985)
+Warning: unknown variable 'nDs2583' in bounds section (line 218244)
+Warning: unknown variable 'nDs2584' in bounds section (line 218245)
+Warning: unknown variable 'nDs2586' in bounds section (line 218247)
+Warning: unknown variable 'nDs2587' in bounds section (line 218248)
+Warning: unknown variable 'nDs2861' in bounds section (line 218522)
+Warning: unknown variable 'nDs3063' in bounds section (line 218724)
+Warning: unknown variable 'nDs3069' in bounds section (line 218730)
+Warning: unknown variable 'nDs3100' in bounds section (line 218761)
+Warning: unknown variable 'nDs3365' in bounds section (line 219026)
+Warning: unknown variable 'nDs3459' in bounds section (line 219120)
+Warning: unknown variable 'nDs3631' in bounds section (line 219292)
+Warning: unknown variable 'nDs3632' in bounds section (line 219293)
+Warning: unknown variable 'nDs3650' in bounds section (line 219311)
+Warning: unknown variable 'nDs3703' in bounds section (line 219364)
+Warning: unknown variable 'nDs3761' in bounds section (line 219422)
+Warning: unknown variable 'nDs3922' in bounds section (line 219583)
+Warning: unknown variable 'nDs3959' in bounds section (line 219620)
+Warning: unknown variable 'nDs3960' in bounds section (line 219621)
+Warning: unknown variable 'nDs4021' in bounds section (line 219682)
+Warning: unknown variable 'nDs4026' in bounds section (line 219687)
+Warning: unknown variable 'nDs4060' in bounds section (line 219721)
+Warning: unknown variable 'nDs4062' in bounds section (line 219723)
+Warning: unknown variable 'nDs4405' in bounds section (line 220066)
+Warning: unknown variable 'nDs4478' in bounds section (line 220139)
+Warning: unknown variable 'nDs5191' in bounds section (line 220852)
+Warning: unknown variable 'nDs5221' in bounds section (line 220882)
+Warning: unknown variable 'nDs5231' in bounds section (line 220892)
+Warning: unknown variable 'nDs5453' in bounds section (line 221114)
+Warning: unknown variable 'nDs5529' in bounds section (line 221190)
+Warning: unknown variable 'nDs5567' in bounds section (line 221228)
+Warning: unknown variable 'nDs5599' in bounds section (line 221260)
+Warning: unknown variable 'nDs5745' in bounds section (line 221406)
+Read LP format model from file /Users/ahmedbarakat/Documents/MM_Pain_Network/PC//lpFile_t19_01_58d22_11_2022n70.lp
+Reading time = 0.50 seconds
+Obj: 155197 rows, 66214 columns, 416339 nonzeros
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 155197 rows, 66214 columns and 416339 nonzeros
+Model fingerprint: 0x8dbd99c7
+Variable types: 5753 continuous, 60461 integer (48914 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [3e-04, 7e+00]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 102778 rows and 35701 columns
+Presolve time: 3.96s
+Presolved: 52419 rows, 30513 columns, 189304 nonzeros
+Variable types: 5753 continuous, 24760 integer (23855 binary)
+Found heuristic solution: objective 136.1914346
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 2.425188e+01, 2054 iterations, 0.28 seconds (0.17 work units)
+Total elapsed time = 5.00s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.25188    0  165  136.19143   24.25188  82.2%     -    5s
+H    0     0                     135.9914346   24.25188  82.2%     -    6s
+H    0     0                     135.3914346   24.25188  82.1%     -    6s
+H    0     0                     134.9914346   25.54096  81.1%     -    7s
+     0     0   27.22369    0  381  134.99143   27.22369  79.8%     -    7s
+H    0     0                     132.6793002   27.22369  79.5%     -    7s
+H    0     0                     132.6245594   32.19059  75.7%     -    8s
+     0     0   32.19059    0  388  132.62456   32.19059  75.7%     -    8s
+     0     0   32.76882    0  461  132.62456   32.76882  75.3%     -    8s
+     0     0   32.76882    0  671  132.62456   32.76882  75.3%     -    9s
+     0     0   32.77938    0  608  132.62456   32.77938  75.3%     -   11s
+     0     0   32.96882    0  106  132.62456   32.96882  75.1%     -   13s
+H    0     0                     130.3124250   32.96882  74.7%     -   14s
+     0     2   32.96882    0  106  130.31242   32.96882  74.7%     -   16s
+H   31    36                     122.4413027   35.07938  71.4%   288   18s
+H   32    36                      98.3179100   35.07938  64.3%   283   18s
+H   71    72                      96.4481081   35.07938  63.6%   164   19s
+H   76    72                      92.5157761   35.07938  62.1%   158   19s
+H   78    72                      88.9844393   35.07938  60.6%   154   19s
+   102   107   37.67168   12  168   88.98444   35.07938  60.6%   126   20s
+H  114   112                      87.0151974   35.07938  59.7%   115   20s
+H  115   112                      73.6129573   35.07938  52.3%   114   20s
+H  355   260                      71.0965309   35.07938  50.7%  49.5   24s
+   391   305   37.87168   43  126   71.09653   35.07938  50.7%  46.1   25s
+H  428   326                      66.6936260   35.07938  47.4%  43.6   25s
+H  429   326                      61.0851841   35.07938  42.6%  43.8   25s
+   738   642   38.07168   81   32   61.08518   35.07938  42.6%  35.8   30s
+H  787   674                      59.4581741   35.07938  41.0%  36.6   31s
+H  892   760                      57.1640069   35.07938  38.6%  35.6   33s
+  1003   881   38.07168  102   26   57.16401   35.07938  38.6%  33.9   35s
+H 1030   878                      55.6076655   35.07938  36.9%  34.0   35s
+H 1244  1016                      45.9201068   35.07938  23.6%  31.5   38s
+H 1340  1071                      45.9198268   35.07938  23.6%  31.2   40s
+H 1637  1281                      44.0863511   35.07938  20.4%  29.4   44s
+H 1638  1237                      43.1902321   35.07938  18.8%  29.7   44s
+  1664  1313   40.07168  153   34   43.19023   35.07938  18.8%  29.4   45s
+H 1746  1366                      42.9902321   35.07938  18.4%  28.5   46s
+H 1809  1263                      41.2873724   35.07938  15.0%  28.0   46s
+  2023  1481   36.36882  107   34   41.28737   35.07938  15.0%  25.9   50s
+  2118  1271   39.90897  125   77   41.28737   35.07938  15.0%  25.3   56s
+H 2123  1151                      41.0873724   35.07938  14.6%  25.2   59s
+  2125  1152   38.68252   96   47   41.08737   35.07938  14.6%  25.2   60s
+  2157  1180   37.67168   16   30   41.08737   35.37938  13.9%  28.2   65s
+H 2298  1216                      40.6873724   35.56882  12.6%  28.8   68s
+H 2299  1161                      40.0873724   35.56882  11.3%  28.8   68s
+H 2339   998                      38.4538967   35.56882  7.50%  28.8   69s
+H 2344   953                      38.2538967   35.56882  7.02%  28.9   69s
+  2349   869   37.87168   28   61   38.25390   35.56882  7.02%  29.0   70s
+  2512   908   35.96882   22   68   38.25390   35.56882  7.02%  30.6   75s
+H 2553   878                      38.0644574   35.56882  6.56%  30.9   75s
+H 2648   779                      37.7793769   35.56882  5.85%  31.8   77s
+H 2655   756                      37.5793769   35.56882  5.35%  31.7   78s
+H 2669   683                      37.3793769   35.56882  4.84%  31.6   78s
+H 2719   642                      36.9688162   35.57938  3.76%  32.0   80s
+  2988   600   36.16882   34   37   36.96882   35.57938  3.76%  33.4   85s
+H 3127   637                      36.8370562   35.57938  3.41%  33.5   87s
+  3251   771   36.16882   55   12   36.83706   35.57938  3.41%  34.7   90s
+  3734  1117   36.26882   84   15   36.83706   35.57938  3.41%  35.9   95s
+  4095  1370   36.36882  107    8   36.83706   35.57938  3.41%  37.3  100s
+  4559  1669   36.37938   29   27   36.83706   35.57938  3.41%  37.2  106s
+  4881  1864   36.59102   69   14   36.83706   35.57938  3.41%  38.1  111s
+* 5018  1949              63      36.7793769   35.67938  2.99%  38.2  113s
+H 5034  1738                      36.5793769   35.67938  2.46%  38.1  113s
+  5128  1726   36.17938   37   37   36.57938   35.67938  2.46%  38.1  115s
+H 5146  1156                      36.3910169   35.67938  1.96%  38.2  115s
+H 5148  1148                      36.3793769   35.67938  1.92%  38.2  115s
+H 5453   697                      36.1688162   35.67938  1.35%  39.2  119s
+  5460   671   35.77938   29   21   36.16882   35.76882  1.11%  39.2  121s
+  5596   696 infeasible   37        36.16882   35.76882  1.11%  39.9  182s
+  5742   797   35.77938   41   30   36.16882   35.76882  1.11%  40.4  185s
+  6202   954   35.97938   43   37   36.16882   35.76882  1.11%  40.5  190s
+  6653  1153     cutoff   33        36.16882   35.77938  1.08%  42.2  195s
+  7122  1364   35.77938   41   39   36.16882   35.77938  1.08%  45.2  200s
+  7620  1452 infeasible   67        36.16882   35.86882  0.83%  47.6  206s
+  7798  1467     cutoff   37        36.16882   35.96882  0.55%  49.2  210s
+  8212  1366   35.96882   35   20   36.16882   35.96882  0.55%  54.6  217s
+  8406  1270     cutoff   40        36.16882   35.96882  0.55%  58.0  220s
+  8919  1142 infeasible  702        36.16882   35.97938  0.52%  64.0  225s
+
+Optimal solution found at node 11049 - now completing solution pool...
+
+    Nodes    |    Current Node    |      Pool Obj. Bounds     |     Work
+             |                    |   Worst                   |
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+ 11049   348 infeasible  316               -   36.16882      -  53.7  231s
+ 12245  2326 infeasible  459               -   36.16882      -  48.5  236s
+ 15059  1799          -  510               -   36.16882      -  40.5  242s
+ 18075  1375 infeasible   98               -   36.16882      -  33.7  246s
+ 20944   524          -   92               -   36.16882      -  29.4  250s
+ 22788   172 infeasible   93               -   36.16882      -  28.3  255s
+
+Cutting planes:
+  Learned: 11
+  Cover: 79
+  Implied bound: 629
+  Clique: 124
+  MIR: 86
+  Flow cover: 350
+  Inf proof: 7
+  Zero half: 15
+  RLT: 55
+  Relax-and-lift: 70
+  BQP: 1
+
+Explored 23581 nodes (672436 simplex iterations) in 257.15 seconds (86.12 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 34: 36.1688 36.1688 36.1688 ... 36.1688
+No other solutions better than 1e+100
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 3.616881618888e+01, best bound 3.616881618888e+01, gap 0.0000%
+
+Wrote result file '/Users/ahmedbarakat/Documents/MM_Pain_Network/PC//result_t19_01_58d22_11_2022n70.sol'
+
+
+Gurobi 9.5.2 (mac64[rosetta2], gurobi_cl) logging started Tue Nov 22 19:30:39 2022
+
+Set parameter Username
+Set parameter SolutionLimit to value 500
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0
+Set parameter SolFiles to value "/Users/ahmedbarakat/Documents/MM_Pain_Network/PC//result_t19_30_29d22_11_2022n21"
+Set parameter LogFile to value "gurobi.log"
+Set parameter NumericFocus to value 2
+Set parameter PoolSolutions to value 100
+Set parameter PoolSearchMode to value 2
+Set parameter PoolGap to value 0
+Academic license - for non-commercial use only - expires 2023-07-15
+Using license file /Users/ahmedbarakat/gurobi.lic
+
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[rosetta2])
+Copyright (c) 2022, Gurobi Optimization, LLC
+
+Warning: unknown variable 'nDs1894' in bounds section (line 217555)
+Warning: unknown variable 'nDs2324' in bounds section (line 217985)
+Warning: unknown variable 'nDs2583' in bounds section (line 218244)
+Warning: unknown variable 'nDs2584' in bounds section (line 218245)
+Warning: unknown variable 'nDs2586' in bounds section (line 218247)
+Warning: unknown variable 'nDs2587' in bounds section (line 218248)
+Warning: unknown variable 'nDs2861' in bounds section (line 218522)
+Warning: unknown variable 'nDs3063' in bounds section (line 218724)
+Warning: unknown variable 'nDs3069' in bounds section (line 218730)
+Warning: unknown variable 'nDs3100' in bounds section (line 218761)
+Warning: unknown variable 'nDs3365' in bounds section (line 219026)
+Warning: unknown variable 'nDs3459' in bounds section (line 219120)
+Warning: unknown variable 'nDs3631' in bounds section (line 219292)
+Warning: unknown variable 'nDs3632' in bounds section (line 219293)
+Warning: unknown variable 'nDs3650' in bounds section (line 219311)
+Warning: unknown variable 'nDs3703' in bounds section (line 219364)
+Warning: unknown variable 'nDs3761' in bounds section (line 219422)
+Warning: unknown variable 'nDs3922' in bounds section (line 219583)
+Warning: unknown variable 'nDs3959' in bounds section (line 219620)
+Warning: unknown variable 'nDs3960' in bounds section (line 219621)
+Warning: unknown variable 'nDs4021' in bounds section (line 219682)
+Warning: unknown variable 'nDs4026' in bounds section (line 219687)
+Warning: unknown variable 'nDs4060' in bounds section (line 219721)
+Warning: unknown variable 'nDs4062' in bounds section (line 219723)
+Warning: unknown variable 'nDs4405' in bounds section (line 220066)
+Warning: unknown variable 'nDs4478' in bounds section (line 220139)
+Warning: unknown variable 'nDs5191' in bounds section (line 220852)
+Warning: unknown variable 'nDs5221' in bounds section (line 220882)
+Warning: unknown variable 'nDs5231' in bounds section (line 220892)
+Warning: unknown variable 'nDs5453' in bounds section (line 221114)
+Warning: unknown variable 'nDs5529' in bounds section (line 221190)
+Warning: unknown variable 'nDs5567' in bounds section (line 221228)
+Warning: unknown variable 'nDs5599' in bounds section (line 221260)
+Warning: unknown variable 'nDs5745' in bounds section (line 221406)
+Read LP format model from file /Users/ahmedbarakat/Documents/MM_Pain_Network/PC//lpFile_t19_30_29d22_11_2022n21.lp
+Reading time = 0.50 seconds
+Obj: 155197 rows, 66214 columns, 416339 nonzeros
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 155197 rows, 66214 columns and 416339 nonzeros
+Model fingerprint: 0x8dbd99c7
+Variable types: 5753 continuous, 60461 integer (48914 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [3e-04, 7e+00]
+  Bounds range     [1e+00, 1e+02]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 102778 rows and 35701 columns
+Presolve time: 4.00s
+Presolved: 52419 rows, 30513 columns, 189304 nonzeros
+Variable types: 5753 continuous, 24760 integer (23855 binary)
+Found heuristic solution: objective 136.1914346
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root relaxation: objective 2.425188e+01, 2054 iterations, 0.28 seconds (0.17 work units)
+Total elapsed time = 5.02s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   24.25188    0  165  136.19143   24.25188  82.2%     -    5s
+H    0     0                     135.9914346   24.25188  82.2%     -    6s
+H    0     0                     135.3914346   24.25188  82.1%     -    6s
+H    0     0                     134.9914346   25.54096  81.1%     -    6s
+     0     0   27.22369    0  381  134.99143   27.22369  79.8%     -    7s
+H    0     0                     132.6793002   27.22369  79.5%     -    7s
+H    0     0                     132.6245594   32.19059  75.7%     -    7s
+     0     0   32.19059    0  388  132.62456   32.19059  75.7%     -    8s
+     0     0   32.76882    0  461  132.62456   32.76882  75.3%     -    8s
+     0     0   32.76882    0  671  132.62456   32.76882  75.3%     -    9s
+     0     0   32.77938    0  608  132.62456   32.77938  75.3%     -   10s
+     0     0   32.96882    0  106  132.62456   32.96882  75.1%     -   13s
+H    0     0                     130.3124250   32.96882  74.7%     -   13s
+     0     2   32.96882    0  106  130.31242   32.96882  74.7%     -   15s
+H   31    36                     122.4413027   35.07938  71.4%   288   17s
+H   32    36                      98.3179100   35.07938  64.3%   283   17s
+H   71    72                      96.4481081   35.07938  63.6%   164   18s
+H   76    72                      92.5157761   35.07938  62.1%   158   18s
+H   78    72                      88.9844393   35.07938  60.6%   154   18s
+H  114   112                      87.0151974   35.07938  59.7%   115   19s
+H  115   112                      73.6129573   35.07938  52.3%   114   19s
+   136   125   37.67168   16   67   73.61296   35.07938  52.3%   102   20s
+H  355   260                      71.0965309   35.07938  50.7%  49.5   23s
+H  428   326                      66.6936260   35.07938  47.4%  43.6   24s
+H  429   326                      61.0851841   35.07938  42.6%  43.8   24s
+   438   342   37.87168   49  114   61.08518   35.07938  42.6%  43.1   25s
+H  787   674                      59.4581741   35.07938  41.0%  36.6   30s
+H  892   760                      57.1640069   35.07938  38.6%  35.6   31s
+H 1030   878                      55.6076655   35.07938  36.9%  34.0   34s
+  1098   972   38.27168  111   24   55.60767   35.07938  36.9%  34.0   35s
+H 1244  1016                      45.9201068   35.07938  23.6%  31.5   37s
+H 1340  1071                      45.9198268   35.07938  23.6%  31.2   38s
+  1478  1193   38.87168  138   28   45.91983   35.07938  23.6%  31.0   40s
+H 1637  1281                      44.0863511   35.07938  20.4%  29.4   42s
+H 1638  1237                      43.1902321   35.07938  18.8%  29.7   42s
+H 1746  1366                      42.9902321   35.07938  18.4%  28.5   44s
+H 1809  1263                      41.2873724   35.07938  15.0%  28.0   44s
+  1831  1341   41.07168  166   30   41.28737   35.07938  15.0%  27.7   45s
+  2116  1270   37.87168   71  106   41.28737   35.07938  15.0%  25.3   52s
+  2119  1209   37.99977    8   92   41.28737   35.07938  15.0%  25.3   55s
+H 2123  1151                      41.0873724   35.07938  14.6%  25.2   57s
+  2127  1156   35.07938   12   53   41.08737   35.07938  14.6%  27.0   60s
+  2194  1205   37.88455   18   83   41.08737   35.37938  13.9%  28.7   65s
+H 2298  1216                      40.6873724   35.56882  12.6%  28.8   67s
+H 2299  1161                      40.0873724   35.56882  11.3%  28.8   67s
+H 2339   998                      38.4538967   35.56882  7.50%  28.8   69s
+H 2344   953                      38.2538967   35.56882  7.02%  28.9   69s
+  2368   871     cutoff   29        38.25390   35.56882  7.02%  29.1   70s
+  2512   908   35.96882   22   68   38.25390   35.56882  7.02%  30.6   75s
+H 2553   878                      38.0644574   35.56882  6.56%  30.9   75s
+H 2648   779                      37.7793769   35.56882  5.85%  31.8   77s
+H 2655   756                      37.5793769   35.56882  5.35%  31.7   78s
+H 2669   683                      37.3793769   35.56882  4.84%  31.6   78s
+H 2719   642                      36.9688162   35.57938  3.76%  32.0   80s
+  2988   600   36.16882   34   37   36.96882   35.57938  3.76%  33.4   85s
+H 3127   637                      36.8370562   35.57938  3.41%  33.5   87s
+  3251   771   36.16882   55   12   36.83706   35.57938  3.41%  34.7   90s
+  3655  1062   36.26882   80   15   36.83706   35.57938  3.41%  35.9   95s
+  3995  1283   36.36882  100    8   36.83706   35.57938  3.41%  36.9  100s
+  4434  1610 infeasible  131        36.83706   35.57938  3.41%  37.2  105s
+  4760  1796   36.57938   53   12   36.83706   35.57938  3.41%  37.5  110s
+* 5018  1949              63      36.7793769   35.67938  2.99%  38.2  113s
+H 5034  1738                      36.5793769   35.67938  2.46%  38.1  113s
+  5128  1726   36.17938   37   37   36.57938   35.67938  2.46%  38.1  115s
+H 5146  1156                      36.3910169   35.67938  1.96%  38.2  115s
+H 5148  1148                      36.3793769   35.67938  1.92%  38.2  115s
+H 5453   697                      36.1688162   35.67938  1.35%  39.2  120s
+  5742   797   35.77938   41   30   36.16882   35.76882  1.11%  40.4  126s
+  6202   954   35.97938   43   37   36.16882   35.76882  1.11%  40.5  130s
+  6653  1153     cutoff   33        36.16882   35.77938  1.08%  42.2  135s
+  7269  1364   35.78235   24   97   36.16882   35.77938  1.08%  44.6  140s
+  7620  1452 infeasible   67        36.16882   35.86882  0.83%  47.6  145s
+  7798  1467     cutoff   37        36.16882   35.96882  0.55%  49.2  150s
+  8212  1366   35.96882   35   20   36.16882   35.96882  0.55%  54.6  156s
+  8406  1270     cutoff   40        36.16882   35.96882  0.55%  58.0  160s
+  9565   990 infeasible  190        36.16882   36.06882  0.28%  61.8  166s
+
+Optimal solution found at node 11049 - now completing solution pool...
+
+    Nodes    |    Current Node    |      Pool Obj. Bounds     |     Work
+             |                    |   Worst                   |
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+ 11049   348 infeasible  316               -   36.16882      -  53.7  170s
+ 12245  2326 infeasible  459               -   36.16882      -  48.5  175s
+ 15059  1799          -  510               -   36.16882      -  40.5  180s
+ 19044   772 infeasible  470               -   36.16882      -  32.0  185s
+ 21591   175          -  260               -   36.16882      -  28.9  190s
+
+Cutting planes:
+  Learned: 11
+  Cover: 79
+  Implied bound: 629
+  Clique: 124
+  MIR: 86
+  Flow cover: 350
+  Inf proof: 7
+  Zero half: 15
+  RLT: 55
+  Relax-and-lift: 70
+  BQP: 1
+
+Explored 23581 nodes (672436 simplex iterations) in 194.83 seconds (86.12 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 34: 36.1688 36.1688 36.1688 ... 36.1688
+No other solutions better than 1e+100
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 3.616881618888e+01, best bound 3.616881618888e+01, gap 0.0000%
+
+Wrote result file '/Users/ahmedbarakat/Documents/MM_Pain_Network/PC//result_t19_30_29d22_11_2022n21.sol'
+

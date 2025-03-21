@@ -1,0 +1,8 @@
+[2022-11-22 18:56:07] [INFO]    [OmnipathR] Welcome to OmnipathR!
+[2022-11-22 18:56:07] [INFO]    [OmnipathR] Initialized cache: `/Users/ahmedbarakat/Library/Caches/OmnipathR`.
+[2022-11-22 18:56:41] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/ahmedbarakat/Library/Caches/OmnipathR/a7b21d9d80a3837a50268df16d168128fc1c6ede-1.rds`.
+[2022-11-22 18:56:41] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2022-11-22 18:56:44] [SUCCESS] [OmnipathR] Loaded 40014 interactions from cache.
+[2022-11-22 18:57:15] [TRACE]   [OmnipathR] Loaded data from RDS `/Users/ahmedbarakat/Library/Caches/OmnipathR/a7b21d9d80a3837a50268df16d168128fc1c6ede-1.rds`.
+[2022-11-22 18:57:15] [INFO]    [OmnipathR] Loaded from cache: `https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath&organisms=9606&fields=sources,references,curation_effort&license=academic`
+[2022-11-22 18:57:17] [SUCCESS] [OmnipathR] Loaded 40014 interactions from cache.

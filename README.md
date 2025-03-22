@@ -22,7 +22,7 @@ The data and code are organized into folders:
 
 9- **RRHO_Analysis**: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 
-10- **Transcriptomics_Analysis_MM_Part1**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
+10- **Transcriptomics_Analysis_MM**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
 
  - ADCY: Data and code used to analyse adipocytes data
  - BMSC: Data and code used to analyse bone marrow stromal cells data
@@ -30,21 +30,15 @@ The data and code are organized into folders:
  - HSC: Data and code used to analyse hematopoietic stem cell data
  - MP: Data and code used to analyse macrophages data
  - NEUT: Data and code used to analyse neutrophils data
+ - NKC: Data and code used to analyse natural killer cells data
+ - OCY: Data and code used to analyse osteocytes data
+ - OPC: Data and code used to analyse osteogenic precursor cells data
+ - PC: Data and code used to analyse plasma cells data
+ - Treg: Data and code used to analyse regulatory T cells data
+ - WBM: Data and code used to analyse whole bone marrow data
 
-> Please note that due to size and other constrains, the raw data files (.CEL files and raw count matricies) could not be uploaded.
-> A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
-
-11- **Transcriptomics_Analysis_MM_Part2**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
-
-  - NKC: Data and code used to analyse natural killer cells data
-  - OCY: Data and code used to analyse osteocytes data
-  - OPC: Data and code used to analyse osteogenic precursor cells data
-  - PC: Data and code used to analyse plasma cells data
-  - Treg: Data and code used to analyse regulatory T cells data
-  - WBM: Data and code used to analyse whole bone marrow data
-
-> Please note that due to size and other constrains, the raw data files (.CEL files and raw count matricies) could not be uploaded.
-> A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
+ > Please note that due to size and other constrains, the raw data files (.CEL files and raw count matricies) could not be uploaded.
+ > A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
 
 12- **Transcriptomics_Analysis_Sensory_Neuron**: Data and code used to analyse senosry neuron transcriptomic datasets. This folder is orgnaized into the following subfolders:
 

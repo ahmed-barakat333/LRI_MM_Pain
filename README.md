@@ -1,4 +1,4 @@
-# LRI_MM_Pain
+![image](https://github.com/user-attachments/assets/b4797f0f-822d-4706-8f8d-d5539022eeeb)# LRI_MM_Pain
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 
@@ -42,7 +42,7 @@ The contents of this repository include:
  - Treg: Data and code used to analyse regulatory T cells data
  - WBM: Data and code used to analyse whole bone marrow data
 
- > Please note that due to size and other constrains, the raw data files (.CEL files and raw count matricies) could not be uploaded.
+ > Please note that due to size and other constrains, the raw data files (.CEL files and raw count matrices) could not be uploaded.
  > A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
 
 12- **Transcriptomics_Analysis_Sensory_Neuron**: Data and code used to analyse senosry neuron transcriptomic datasets. This folder is orgnaized into the following subfolders:
@@ -50,7 +50,7 @@ The contents of this repository include:
   - human_Datasets: Data and code to analyse the human dataset (GSE168243).
   - human_mouse_overlap:  Data and code to get genes that overlap in their expression between mouse and human datasets. 
   - mouse_Datasets: Data and code to analyse different mouse datasets.
-      > Please note that due to size and other constrains, the raw data files (raw count matricies) could not be uploaded.
+      > Please note that due to size and other constrains, the raw data files (raw count matrices) could not be uploaded.
       > A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
   - mouse_Meta-analysis: Data and code to run rank-aggregaton meta-analysis of different mouse datasets.
 

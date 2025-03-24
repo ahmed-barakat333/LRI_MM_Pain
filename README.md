@@ -2,7 +2,12 @@
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 
-The data and code are organized into folders based on the analysis function. All folders have common structure (.R file, data folder, and results folder) so that the ".R" file should read data files from the "data" folder and output analysis results in the "results" folder:
+The data and code are organized into folders based on the analysis function. All folders have common structure (.R file, data folder, and results folder) so that the ".R" file should read data files from the "data" folder and output analysis results in the "results" folder.
+
+> Please note that due to size constrains, different subfolders located inside the main folders are compressed to save space.
+
+The contents of this repository include:
+---------------------------------------
 
 1- **CARNIVAL_Network_Analysis_BMSCs**: Data and code used to construct signaling network of multiple myeloma - bone marrow stromal cells (BMSCs). Please note to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/). 
 

@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/932500bc-3e08-4381-9114-68bbe5a9d029)# LRI_MM_Pain
+# LRI_MM_Pain
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 

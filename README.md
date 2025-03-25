@@ -9,9 +9,9 @@ The data and code are organized into folders based on the analysis function. All
 The contents of this repository include:
 ---------------------------------------
 
-1- **CARNIVAL_Network_Analysis_BMSCs**: Data and code used to construct signaling network of multiple myeloma - bone marrow stromal cells (BMSCs). Please note to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/). 
+1- **CARNIVAL_Network_Analysis_BMSCs**: Data and code used to construct signaling network of multiple myeloma - bone marrow stromal cells (BMSCs). Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/). 
 
-2- **CARNIVAL_Network_Analysis_PCs**: Data and code used to construct signaling network of multiple myeloma - plasma cells (PCs). Please note to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/). 
+2- **CARNIVAL_Network_Analysis_PCs**: Data and code used to construct signaling network of multiple myeloma - plasma cells (PCs). Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/). 
 
 3- **Cells_Ligands**: Data and code used to visualize ligands of each cell type of multiple myeloma bone marrow, in addition to annotate each ligand with "biological process" and "molecular function" keywords. 
 

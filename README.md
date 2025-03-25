@@ -2,7 +2,7 @@
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 
-The data and code are organized into folders based on the analysis type. All folders have a common structure (.R file, data folder, and results folder) so the ".R" file should read data files from the "data" folder and output analysis results in the "results" folder.
+The data and code are organized into folders based on the analysis type. All folders have a common structure (.R file, "data" folder, and "results" folder) so the ".R" file should read data files from the "data" folder and output analysis results in the "results" folder.
 
 > Please note that due to size constrains, different subfolders located inside the main folders are compressed to save space.
 

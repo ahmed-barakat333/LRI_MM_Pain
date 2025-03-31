@@ -21,13 +21,11 @@ The contents of this repository include:
 
 6- **Functional_Analysis**: Data and code used to perform enrichment analysis of differentially expressed genes of mutiple myeloma cell types. 
 
-7- **Ligand_Receptor_Annotations**: A file containing final results of ligand-receptor pairs of each multple myeloma cell type with senosry neurons. 
+7- **Overlap_Analysis**: Data and code used to assess and visualize the overlap between activated pathways in multiple myeloma cell types. 
 
-8- **Overlap_Analysis**: Data and code used to assess and visualize the overlap between activated pathways in multiple myeloma cell types. 
+8- **RRHO_Analysis**: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 
-9- **RRHO_Analysis**: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
-
-10- **Transcriptomics_Analysis_MM**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
+9- **Transcriptomics_Analysis_MM**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
 
  - ADCY: Data and code used to analyse adipocytes data
  - BMSC: Data and code used to analyse bone marrow stromal cells data
@@ -45,7 +43,7 @@ The contents of this repository include:
  > Please note that due to size and other constraints, the raw data files (.CEL files and raw count matrices) could not be uploaded.
  > A link for downloading the raw data files has been provided. This link is provided inside a "data_link.txt" file located inside the folder of each dataset. 
 
-12- **Transcriptomics_Analysis_Sensory_Neuron**: Data and code used to analyse senosry neuron transcriptomic datasets. This folder is orgnaized into the following subfolders:
+10- **Transcriptomics_Analysis_Sensory_Neuron**: Data and code used to analyse senosry neuron transcriptomic datasets. This folder is orgnaized into the following subfolders:
 
   - human_Datasets: Data and code to analyse the human dataset (GSE168243).
   - human_mouse_overlap:  Data and code to get genes that overlap in their expression between mouse and human datasets. 

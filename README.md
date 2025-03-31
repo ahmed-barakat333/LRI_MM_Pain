@@ -17,7 +17,7 @@ The contents of this repository include:
 
 4- **Chord_Diagram**: Data and code used to visualize some of the interactions between multiple myeloma - plasma cells (PCs) and bone marrow stromal cells (BMSCs) ligands with seonsory neuron receptors. 
 
-5- **Communication_Score**: Data and code used to the significance of interactions between multiple myeloma - plasma cells (PCs) and bone marrow stromal cells (BMSCs) ligands with seonsory neuron receptors.
+5- **Communication_Score**: Data and code used to analyze the significance of interactions between multiple myeloma - plasma cells (PCs) and bone marrow stromal cells (BMSCs) ligands with seonsory neuron receptors.
 
 6- **Functional_Analysis**: Data and code used to perform enrichment analysis of differentially expressed genes of mutiple myeloma cell types. 
 
@@ -25,7 +25,7 @@ The contents of this repository include:
 
 8- **RRHO_Analysis**: Data and code used to run Rank Rank Hypergeometric Overlap (RRHO) analysis of differentially expressed genes of multiple myeloma cell types. 
 
-9- **Transcriptomics_Analysis_MM**: Data and code used to analyse multiple myeloma cell-types transcriptomic (microarray, bulk RNA-seq, meta-analysis) datasets. This folder is organized into subfolders based on cell type:
+9- **Transcriptomics_Analysis_MM**: Data and code used to analyse multiple myeloma cell-types transcriptomic datasets (microarray, bulk RNA-seq, meta-analysis). This folder is organized into subfolders based on cell type:
 
  - ADCY: Data and code used to analyse adipocytes data
  - BMSC: Data and code used to analyse bone marrow stromal cells data

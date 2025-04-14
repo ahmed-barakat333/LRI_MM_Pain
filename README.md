@@ -23,6 +23,9 @@ The contents of this repository include:
  - Chord_diagram: Data and code used to visualize some of the interactions between ligands of MM - plasma cells (PCs) and bone marrow stromal cells (BMSCs) with sensory neuron receptors.
  - Communication_score: Data and code used to analyze the significance of interactions between ligands of MM - PCs and BMSCs with sensory neuron receptors.
 
+4- **Network_analysis**:  Data and code used to construct a signaling network of MM - PCs and BMSCs . Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/).
+ 
+
 
 
 

@@ -16,7 +16,7 @@ The contents of this repository include:
      - MM. This folder contains folders of meta-analysis of individual datasets of some MM cell types (human_BMSC, human_PC, mouse_MP, mouse_PC).
      - Sensory_neuron. This folder contains folders of meta-analysis of individual datasets of senosry neurons.
   
- 2- **Signature_analysis**: Data and code used to analyse the gene signature of MM cell types. Signature analysis is based on Rank Rank Hypergeometric Overlap (RRHO) and pathway enrichment (fgsea). Overlap of enriched pathways, transcription factors, and kinases were assessed between MM cell types were assessed using Fisher's exact test. 
+2- **Signature_analysis**: Data and code used to analyse the gene signature of MM cell types. Signature analysis is based on Rank Rank Hypergeometric Overlap (RRHO) and pathway enrichment (fgsea). Overlap of enriched pathways, transcription factors, and kinases were assessed between MM cell types were assessed using Fisher's exact test. 
  
 
 

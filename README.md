@@ -21,12 +21,7 @@ The contents of this repository include:
 3- **Interactome_analysis**: Data and code used to analyse and visualize protein-protein interactions between MM cell types and sensory neurons. This folder has the following subfolders:
  - Cell_type_ligands: Data and code used to visualize ligands of each MM cell type, and annotate each ligand with "biological process" and "molecular function" Uniprot keywords.
  - Chord_diagram: Data and code used to visualize some of the interactions between ligands of MM - plasma cells (PCs) and bone marrow stromal cells (BMSCs) with sensory neuron receptors.
- - Communication_score: Data and code used to analyze the significance of interactions between ligands of MM - PCs and BMSCs with sensory neuron receptors.
+ - Communication_score: Data and code used to analyse the significance of interactions between ligands of MM - PCs and BMSCs with sensory neuron receptors.
 
 4- **Network_analysis**:  Data and code used to construct a signaling network of MM - PCs and BMSCs . Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/).
- 
-
-
-
-
 

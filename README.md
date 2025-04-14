@@ -1,4 +1,4 @@
-# LRI_MM_Pain
+![image](https://github.com/user-attachments/assets/6ea9e2e2-1657-4cdf-94c4-05a82741e8cf)# LRI_MM_Pain
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 
@@ -22,6 +22,9 @@ The contents of this repository include:
  - Cell_type_ligands: Data and code used to visualize ligands of each MM cell type, and annotate each ligand with "biological process" and "molecular function" Uniprot keywords.
  - Chord_diagram: Data and code used to visualize some of the interactions between ligands of MM - plasma cells (PCs) and bone marrow stromal cells (BMSCs) with sensory neuron receptors.
  - Communication_score: Data and code used to analyze the significance of interactions between ligands of MM - PCs and BMSCs with sensory neuron receptors.
+
+4- **Network_analysis**:  Data and code used to construct a signaling network of MM - PCs and BMSCs . Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/).
+ 
 
 
 

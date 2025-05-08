@@ -2,7 +2,7 @@
 
 This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
 
-The data and code are organized into folders based on the analysis type. Folders have a common structure (.R filescript, a “data” folder, and a “results”  folder) so the ".R" file should read data files from the "data" folder and output analysis results in the "results" folder.
+The data and code are organized into folders based on the analysis type. Folders have a common structure (.R script, a `data` folder, and a `results`  folder) so the `.R` file should read data files from the `data` folder and output analysis results in the `results` folder.
 
 The contents of this repository include:
 ---------------------------------------
@@ -23,5 +23,5 @@ The contents of this repository include:
  - Chord_diagram: Data and code used to visualize some of the interactions between ligands of MM - plasma cells (PCs) and bone marrow stromal cells (BMSCs) with sensory neuron receptors.
  - Communication_score: Data and code used to analyse the significance of interactions between ligands of MM - PCs and BMSCs with sensory neuron receptors.
 
-4- **Network_analysis**:  Data and code used to construct a signaling network of MM - PCs and BMSCs . Please note, to run this code, a Gurobi solver is needed (https://www.gurobi.com/solutions/gurobi-optimizer/).
+4- **Network_analysis**:  Data and code used to construct a signaling network of MM PCs and BMSCs using [CARNIVAL](https://saezlab.github.io/CARNIVAL/)..
 

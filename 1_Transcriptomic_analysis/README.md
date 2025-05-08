@@ -25,7 +25,7 @@ The following datasets were processed and used in the analysis:
 - Treg: GSE109533 (mouse)
 - WBM: GSE118985 (human)
 
-### Sensory_neurons
+### Sensory_neuron
 
 This folder contains individual datasets of sensory neurons divided by organism (mouse or human). For each dataset, there is a folder with the R script that was used to process the data and a `data` directory. The `data` directory does not contain the actual data from GEO (due to size restrictions on github), but a file with a link from where the data can be downloaded. The `results` folder contains the processed file. 
 

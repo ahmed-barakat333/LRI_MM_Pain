@@ -9,7 +9,7 @@ This folder contains the code used to analyse transcriptomic data of multiple my
 This folder contains folders of individual datasets of MM cell types (ADCY, BMSC, EC, HSC, MP, NEUT, NKC, OCY, OPC, PC, Treg, WBM). Depending on the cell type, there are datasets from human, mouse, or both organisms.  
 For each dataset, there is a folder with the R script that was used to process the data and a `data` directory. The `data` directory does not contain the actual data from GEO (due to size restrictions on github), but a file with a link from where the data can be downloaded. For microarray datasets, a `target.csv` file is also included in the `data` folder that contains meta information used during the analysis. For RNA-seq datasets, the `data` folder contains a `design.csv` file, which contains the meta information. For the cell types with more than 1 dataset available, the result files used for meta analysis can also be found in `/Meta-analysis/MM/`. All results files are available in the OSF repository: *#TODO*  
 
-The follwoing datasets were processed and used in the analysis: 
+The following datasets were processed and used in the analysis: 
 - ADCY: GSE143269 (mouse)
 - BMSC: GSE36474, GSE46053_Coculture, GSE78235, GSE80608, GSE87073 (human)
 - EC: GSE14230 (human)
@@ -27,9 +27,9 @@ The follwoing datasets were processed and used in the analysis:
 
 ### Sensory_neurons
 
-This folder contains individual datasets of senosry neurons divided by organism (mouse or human). For each dataset, there is a folder with the R script that was used to process the data and a `data` directory. The `data` directory does not contain the actual data from GEO (due to size restrictions on github), but a file with a link from where the data can be downloaded. The `results` folder contains the processed file. 
+This folder contains individual datasets of sensory neurons divided by organism (mouse or human). For each dataset, there is a folder with the R script that was used to process the data and a `data` directory. The `data` directory does not contain the actual data from GEO (due to size restrictions on github), but a file with a link from where the data can be downloaded. The `results` folder contains the processed file. 
 
-The follwoing datasets were processed and used in the analysis: 
+The following datasets were processed and used in the analysis: 
 - Human: GSE168243
 - Mouse: GSE100175, GSE131230, GSE139088, GSE154659, GSE155622, GSE168032, GSE59739, GSE62424, GSE63576, PMID30096314
 

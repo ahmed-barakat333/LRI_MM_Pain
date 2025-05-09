@@ -7,3 +7,5 @@ Signature analysis is based on:
 
 -  Assessment of the overlap of enriched pathways, transcription factors, and kinases between MM cell types using Fisher's exact test. This statistical test evaluates whether the observed overlap between two sets of enriched features (e.g., pathways shared between two cell types) is greater than expected by chance, providing a measure of similarity or shared biology between cell types.
 
+   - Enriched pathways were retrieved from fgsea analysis. Enriched transcription factors and kinases were retreved from [X2K](https://maayanlab.cloud/X2K/) online tool. 
+

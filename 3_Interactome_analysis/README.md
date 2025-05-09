@@ -5,4 +5,4 @@ This folder has the following subfolders:
   
 - Chord_diagram: Visualize of some of the interactions between ligands of MM - plasma cells (PCs) and bone marrow stromal cells (BMSCs) with sensory neuron receptors. This based on code and functions from [circlize](https://jokergoo.github.io/circlize_book/book/) R package
   
-- Communication_score: a quantitative analysis of interaction strength between ligands of MM - PCs and BMSCs with sensory neuron receptors.
+- Communication_score: a quantitative analysis of interaction strength between MM cell ligands (PCs and BMSCs) and sensory neuron receptors.

@@ -32,7 +32,7 @@ This folder contains individual datasets of sensory neurons divided by organism 
 
 The following datasets were processed and used in the analysis: 
 - Human: [GSE168243](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168243)
-- Mouse: [GSE100175](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100175), [GSE131230](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131230), [GSE139088](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139088), [GSE154659](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154659), [GSE155622](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155622), [GSE168032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168032), [GSE59739](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59739), GSE62424](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62424), [GSE63576(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63576), [PMID30096314](http://mousebrain.org/)
+- Mouse: [GSE100175](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100175), [GSE131230](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131230), [GSE139088](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139088), [GSE154659](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154659), [GSE155622](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155622), [GSE168032](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168032), [GSE59739](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59739), [GSE62424](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62424), [GSE63576](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63576), [PMID30096314](http://mousebrain.org/)
 
 ## Meta-analysis
 

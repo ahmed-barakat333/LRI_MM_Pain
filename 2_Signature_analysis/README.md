@@ -1,4 +1,4 @@
-Data and code used to analyse the gene signature of MM cell types. 
+This folder contains data and code used to analyse the gene signature of MM cell types. 
 Signature analysis is based on:
 
  -   [Rank Rank Hypergeometric Overlap](https://academic.oup.com/nar/article/38/17/e169/1033168) (RRHO): a threshold-free, statistical method to compare two ranked gene lists to identify regions of significant overlap.

@@ -1,6 +1,6 @@
 # Transcriptomic analysis
 
-This folder contains the code used to analyse transcriptomic data of multiple myeloma (MM) cell types and senosry neurons. 
+This folder contains the code used to analyse transcriptomic data of multiple myeloma (MM) cell types and sensory neurons. 
 
 ## Individual datasets
 

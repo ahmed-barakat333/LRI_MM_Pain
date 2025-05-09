@@ -1,3 +1,0 @@
-This file provides the link to the raw data.
-
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE146649

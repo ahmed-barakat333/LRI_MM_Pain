@@ -7,7 +7,7 @@ The data and code are organized into folders based on the analysis type. Folders
 The contents of this repository include:
 ---------------------------------------
 
-1- **Transcriptomic_analysis**: Data and code used to analyse transcriptomic data of multiple myeloma (MM) cell types and senosry neurons. This folder has the following subfolders:
+1- **Transcriptomic_raw_data_analysis**: Data and code used to analyse transcriptomic data of multiple myeloma (MM) cell types and senosry neurons. This folder has the following subfolders:
 
  - `Individual_datasets`: Data and code used to analyse individual datasets of MM cell types and senosry neurons. This folder is subdivided into the following subfolders:
      - `MM`: This folder contains folders of individual datasets of MM cell types (`ADCY`, `BMSC`, `EC`, `HSC`, `MP`, `NEUT`, `NKC`, `OCY`, `OPC`, `PC`, `Treg`, `WBM`).

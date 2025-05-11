@@ -1,4 +1,4 @@
-# Transcriptomic analysis
+# Transcriptomic analysis of raw data
 
 This folder contains the code used to analyse transcriptomic data of multiple myeloma (MM) cell types and sensory neurons. 
 

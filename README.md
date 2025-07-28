@@ -1,6 +1,6 @@
 # LRI_MM_Pain
 
-This is a repo to reproduce results and figures from the manuscript "A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain".
+This is a repo to reproduce results and figures from the manuscript ["A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain"](https://journals.lww.com/pain/pages/articleviewer.aspx?year=9900&issue=00000&article=00979&type=Abstract&fbclid=IwZXh0bgNhZW0CMTEAAR66BrmDwcRfD8HMMF4EO69k6ezkz9FHtRBkykMh45LiwGN0_fd_hnGXqzK07A_aem_Rz6LXf7HYHsPPYlGnbhuVA).
 
 The data and code are organized into folders based on the analysis type. Folders have a common structure (.R script, a `data` folder, and a `results`  folder) so the `.R` file should read data files from the `data` folder and output analysis results in the `results` folder.
 
